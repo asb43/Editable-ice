@@ -27,6 +27,7 @@ class EditableVC: UITableViewController {
             tableView.insertRows(at:[indexPath], with:.automatic)
             
             sampleMake.remove(at: i)
+            
         }
     }
                         
